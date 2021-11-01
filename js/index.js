@@ -14,10 +14,11 @@ function openTab(tabName) {
   }
 }
 
-function toggleNav(navName) {
-  if (document.getElementById(navName).style.display === "none") {
-    document.getElementById(navName).style.display = "flex";
+function toggleNav() {
+  var x = document.getElementById("nav-menu");
+  if (x.style.display === "flex") {
+    x.style.display = "none";
   } else {
-    document.getElementById(navName).style.display = "none";
+    x.style.display = "flex";
   }
 }

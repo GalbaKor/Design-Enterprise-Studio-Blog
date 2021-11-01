@@ -77,11 +77,56 @@ select {
 
 /* CSS begins */
 
-header {
+body {
   background: url("/assets/pexels-eberhard-grossgasteiger-844297.jpg");
+  background-size: cover;
 }
 
-h1,
-h2 {
+header {
+  text-align: center;
+  background: black;
+  padding: 50px;
+}
+
+.main--title,
+.workers--title {
   color: white;
+}
+
+.blog-list {
+  display: flex;
+  background-color: #333;
+}
+.blog-list--button {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  border: none;
+}
+.blog-list--button:hover {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
+.topic {
+  width: 60%;
+  text-align: center;
+  margin: 0 20% 0 20%;
+}
+.topic-box {
+  display: flex;
+  flex-direction: row;
+  background: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
 }

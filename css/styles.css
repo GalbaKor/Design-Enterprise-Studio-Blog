@@ -112,6 +112,21 @@ header {
   cursor: pointer;
 }
 
+.blog-list-nav--button {
+  display: none;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #333;
+  border: none;
+}
+.blog-list-nav--button {
+  background-color: #ddd;
+  color: black;
+  cursor: pointer;
+}
+
 .topic {
   width: 60%;
   text-align: center;
@@ -128,11 +143,18 @@ header {
 }
 
 @media (max-width: 800px) {
-  .blog-list {
-    flex-direction: column;
-  }
   .topic {
     width: 100%;
     margin: 0;
+  }
+  .blog-list-nav--button {
+    display: block;
+    width: 100%;
+  }
+  #nav-menu {
+    display: none;
+  }
+  .blog-list {
+    flex-direction: column;
   }
 }

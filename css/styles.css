@@ -111,6 +111,9 @@ header {
   color: black;
   cursor: pointer;
 }
+.active {
+  background: #ddd;
+}
 
 .blog-list-nav--button {
   display: none;

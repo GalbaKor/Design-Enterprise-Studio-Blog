@@ -133,5 +133,6 @@ header {
   }
   .topic {
     width: 100%;
+    margin: 0;
   }
 }

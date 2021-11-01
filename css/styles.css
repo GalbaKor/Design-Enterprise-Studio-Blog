@@ -128,7 +128,10 @@ header {
 }
 
 @media (max-width: 800px) {
-  .flex-container {
+  .blog-list {
     flex-direction: column;
+  }
+  .topic {
+    width: 100%;
   }
 }

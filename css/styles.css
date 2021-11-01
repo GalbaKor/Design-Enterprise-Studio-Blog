@@ -132,10 +132,3 @@ header {
     flex-direction: column;
   }
 }
-
-.closebtn {
-  float: right;
-  color: black;
-  font-size: 35px;
-  cursor: pointer;
-}

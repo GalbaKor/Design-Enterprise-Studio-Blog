@@ -80,6 +80,7 @@ select {
 body {
   background: url("/assets/pexels-eberhard-grossgasteiger-844297.jpg");
   background-size: cover;
+  padding-bottom: 40px;
 }
 
 header {
@@ -162,10 +163,9 @@ header {
 
 footer {
   text-align: center;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   height: 40px;
+  display: block;
 }
 
 @media (max-width: 800px) {

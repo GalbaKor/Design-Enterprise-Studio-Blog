@@ -160,6 +160,11 @@ header {
   font-size: 18px;
 }
 
+.article-pdf {
+  width: 90%;
+  height: 800px;
+}
+
 @media (max-width: 800px) {
   .topic {
     width: 100%;

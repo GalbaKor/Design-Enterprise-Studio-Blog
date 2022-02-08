@@ -91,6 +91,7 @@ header {
   padding-bottom: 10px;
   margin: 5px;
   display: block;
+  text-align: center;
 }
 .p-center {
   padding: 5px;
@@ -103,7 +104,15 @@ header {
   max-height: 300px;
 } */
 .img-center {
+  /* display: inline; */
+  margin: 0 auto;
+  width: auto;
+}
+.img-center-inline {
   display: inline;
+}
+.image-container-center {
+  text-align: center;
 }
 
 .main--title,
@@ -150,7 +159,7 @@ header {
 
 .topic {
   width: 60%;
-  text-align: center;
+  text-align: left;
   margin: 0 20% 0 20%;
   display: none;
 }

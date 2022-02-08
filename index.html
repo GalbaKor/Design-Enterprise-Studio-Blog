@@ -36,6 +36,9 @@
         <button class="blog-list--button" onclick="openTab('january')">
           January
         </button>
+        <button class="blog-list--button" onclick="openTab('february')">
+          February
+        </button>
         <!-- ctrl+k+u to uncomment, ctrl+k+c to comment -->
         <!-- <button class="blog-list--button" onclick="openTab('february')">
           February
@@ -236,16 +239,19 @@
           Challenges involved containing all the potential content within a
           relatively small mobile centric design.
         </p>
-        <img
+        <div class="image-container-center">
+          <img
           src="assets/wireframe_1.png"
-          class="img-center"
+          class="img-center-inline"
           alt="lo-fi wireframe showing local walks and a series of clickable routes"
         />
         <img
           src="assets/wireframe_2.png"
-          class="img-center"
+          class="img-center-inline"
           alt="lo-fi wireframe showing a specific route page with an expandable map, route information and start trail button"
         />
+        </div>
+
       </article>
       <article class="topic-box">
         <h2 class="topic-header">Week 3-4</h2>
@@ -284,8 +290,64 @@
           webpages via a QR link.
         </p>
       </article>
+      <article class="topic-box">
+        <h2 class="topic-header">Week 2-4</h2>
+        <p>
+          During this period, we focused on gathering and presenting all our
+          findings until this point. We implemented the modal design and
+          discussed our considerations for the post hand-over period during the
+          client presentation. The client seemed happy overall with our progress
+          and asked questions about the number of planned routes and potential
+          post-launch support. As this had been established in our design brief,
+          we re-iterated our plan for a fully working pilot route and templates
+          for the team to make more in the future.
+        </p>
+      </article>
     </section>
 
+    <section class="topic" id="february">
+      <article class="topic-box">
+        <h2 class="topic-header">Week 1</h2>
+        <p class="p-center">
+          Following the presentation, Kseniia began reworking the home page
+          prototype in Figma. Meanwhile, I implemented a working carousel system
+          and further researched potential options for showcasing information.
+          As part of this process, we messaged the client on slack with our
+          research and proposed two main solutions - giving preference for the
+          second. This solution would involve creating a separate webpage for
+          each individual route point rather than implementing a more complex
+          javascript based solution.
+        </p>
+        <div class="image-container-center">
+          <img
+          src="assets/design-1.png"
+          class="img-center-inline"
+          alt="lo-fi wireframe showing local walks and a series of clickable routes"
+        />
+        <img
+          src="assets/design-2.png"
+          class="img-center-inline"
+          alt="lo-fi wireframe showing a specific route page with an expandable map, route information and start trail button"
+        />
+        </div>
+      </article>
+      <article class="topic-box">
+        <h2 class="topic-header">Week 2</h2>
+        <p>
+          This week we took on feedback about the Figma design and made a note of considerations and changes to follow:
+          <ul>
+            <li>Make some variations on the colour schemes</li>
+            <li>Keep all buttons the same colour tot encourage interaction and establish consistency</li>
+            <li>The logo could be slightly bigger</li>
+            <li>Font sizes are too large - consider mobile design guidelines</li>
+            <li>Condense the amount of text by using icons - more visuals</li>
+            <li>Develop an icon set for the walks and each point (consider what style the icons will be)</li>
+          </ul>
+        </p>
+        <img src="assets/design-3.png" class="img-center" alt="lo-fi wireframe showing the website homepage"/>
+
+      </article>
+    </section>
     <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
